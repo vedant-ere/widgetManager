@@ -1,0 +1,124 @@
+{
+  "categories": [
+    {
+      "id": "cspm-executive",
+      "name": "CSPM Executive Dashboard",
+      "widgets": [
+        {
+          "id": "widget-1",
+          "name": "Cloud Accounts",
+          "text": "Connected (2), Not Connected (2)",
+          "isActive": true,
+          "type": "pie",
+          "chartData": [
+            { "name": "Connected", "value": 2, "color": "#10B981" },
+            { "name": "Not Connected", "value": 2, "color": "#EF4444" }
+          ]
+        },
+        {
+          "id": "widget-2",
+          "name": "Cloud Account Risk Assessment",
+          "text": "Failed (1689), Warning (681), Not Available (36), Passed (7253)",
+          "isActive": true,
+          "type": "donut",
+          "chartData": [
+            { "name": "Failed", "value": 1689, "color": "#EF4444" },
+            { "name": "Warning", "value": 681, "color": "#F59E0B" },
+            { "name": "Not Available", "value": 36, "color": "#6B7280" },
+            { "name": "Passed", "value": 7253, "color": "#10B981" }
+          ]
+        },
+        {
+          "id": "widget-3",
+          "name": "Cloud Security Compliance",
+          "text": "Compliant (85%), Non-Compliant (15%)",
+          "isActive": false,
+          "type": "bar",
+          "chartData": [
+            { "name": "Compliant", "value": 85, "color": "#10B981" },
+            { "name": "Non-Compliant", "value": 15, "color": "#EF4444" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cwpp-dashboard",
+      "name": "CWPP Dashboard",
+      "widgets": [
+        {
+          "id": "widget-4",
+          "name": "Top 5 Namespace Specific Alerts",
+          "text": "No Graph data available!",
+          "isActive": true,
+          "type": "text",
+          "chartData": null
+        },
+        {
+          "id": "widget-5",
+          "name": "Workload Alerts",
+          "text": "Critical (5), Warning (12), Info (23)",
+          "isActive": false,
+          "type": "line",
+          "chartData": [
+            { "name": "Jan", "Critical": 3, "Warning": 8, "Info": 15 },
+            { "name": "Feb", "Critical": 7, "Warning": 12, "Info": 18 },
+            { "name": "Mar", "Critical": 5, "Warning": 10, "Info": 20 },
+            { "name": "Apr", "Critical": 4, "Warning": 15, "Info": 25 },
+            { "name": "May", "Critical": 5, "Warning": 12, "Info": 23 }
+          ]
+        },
+        {
+          "id": "widget-6",
+          "name": "Container Security",
+          "text": "Secure (234), Vulnerable (12)",
+          "isActive": false,
+          "type": "area",
+          "chartData": [
+            { "name": "Week 1", "Secure": 200, "Vulnerable": 20 },
+            { "name": "Week 2", "Secure": 220, "Vulnerable": 15 },
+            { "name": "Week 3", "Secure": 240, "Vulnerable": 8 },
+            { "name": "Week 4", "Secure": 234, "Vulnerable": 12 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "registry-scan",
+      "name": "Registry Scan",
+      "widgets": [
+        {
+          "id": "widget-7",
+          "name": "Image Risk Assessment",
+          "text": "1470 Total Vulnerabilities",
+          "isActive": true,
+          "type": "donut",
+          "chartData": [
+            { "name": "Critical", "value": 450, "color": "#DC2626" },
+            { "name": "High", "value": 520, "color": "#EF4444" },
+            { "name": "Medium", "value": 300, "color": "#F59E0B" },
+            { "name": "Low", "value": 200, "color": "#10B981" }
+          ]
+        },
+        {
+          "id": "widget-8",
+          "name": "Image Security Issues",
+          "text": "2 Total Images",
+          "isActive": true,
+          "type": "text",
+          "chartData": null
+        },
+        {
+          "id": "widget-9",
+          "name": "Registry Compliance",
+          "text": "Compliant (78%), Issues (22%)",
+          "isActive": false,
+          "type": "pie",
+          "chartData": [
+            { "name": "Compliant", "value": 78, "color": "#10B981" },
+            { "name": "Issues", "value": 22, "color": "#EF4444" }
+          ]
+        }
+      ]
+    }
+  ]
+}
