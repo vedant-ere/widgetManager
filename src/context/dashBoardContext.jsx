@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useState } from 'react';
-import initialData from '../data/dashboardData.json';
+import initialData from '../data/dashBoardData.json';
 
 const DashboardContext = createContext();
 
